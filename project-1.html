@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Auto & AI Project</title>
+    <meta name="description" content="Case study page of Project" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="project-cs-hero">
+      <div class="project-cs-hero__content">
+        <h1 class="heading-primary">Auto & AI Project</h1>
+        <div class="project-cs-hero__info">
+          <p class="text-primary">
+            Semi-AutoTools Integration<br><br><br><br><br><br>CNN Clasification
+          </p>
+        </div>        
+      </div>
+    </section>
+    <section class="project-details">
+      <div class="main-container">
+        <div class="project-details__content">
+          <div class="project-details__showcase-img-cont">
+            <img
+              src="./assets/jpeg/project-example1.jpg"
+              alt="Project Image"
+              class="project-details__showcase-img"
+            />
+          </div>
+          <div class="project-details__content-main">
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Project Overview</h3>
+              <p class="project-details__desc-para">
+                <style>sd{font-size:14px}</style>
+                <style>co{font-style:italic;font-size:19px;color: darkgray;}</style>
+                <strong>Semi-Auto Tools Integration</strong><br>
+                *<co>GE</co><br>
+                태아의 목덜미 투명대 및 두개(頭蓋) 내 투명대 측정, 정량화 가능한 도구. <sd>(좌측 상단 이미지)</sd><br>
+                임상의 진단 신뢰도에 중요한 재현 가능한 결과를 얻을 수 있으며, 직관적으로 설계된<br>
+                사용자 인터페이스와 사용하기 쉬운 워크플로우.<br>
+                ▶ Feature 리딩 / 사용자 워크플로우 및 Interface 정의 / Software Architecture 설계 및 구현, Measure Tool 개발(Native C++) / System Integration 및 Engineering 테스트 진행 / 문서 작성하였습니다.<br><br>
+                *<co>Siemens</co><br>
+                난포의 크기를 자동으로 측정하는 도구. <sd>(우측 상단 이미지)</sd><br>
+                One 클릭으로 측정, 자동으로 측정된 값을 기록하여 측정에 필요한 시간과 Keystroke 단축, 측정된 값 또한 쉽게 수정 가능.<br>
+                ▶ Feature 리딩 / 사용자 워크플로우 및 Interface 정의 / Software Architecture 설계 및 구현(Native C++) / System Integration 및 Engineering 테스트 진행 / 문서 작성하였습니다.<br><br>
+              </p>
+              <p class="project-details__desc-para">
+                <strong>CNN Clasification</strong><br>
+                *<co>GE</co><br>
+                9개 Category를 갖는 초음파 이미지 CNN 모델 Training.<br>
+                Training 한 모델이 C++에서 동작하기 위한 방법구현과 테스트를 통한 ResNet50 등<br>
+                <sd>(하단 이미지)</sd> 모델을 이용하여 실시간 분류.
+                Configuration에서 각 Category에 Accuracy 설정 가능 하며, 실제 Scan에서의 Accuracy가
+                설정된 값을 넘게 되면 해당 매핑된 Category로 자동 또는 수동으로 변경.<br>
+                GPU가 아닌 CPU로만 사용 가능한지 System Performance 테스트 진행. <br>
+                ▶ 개발 환경(Ubuntu 18.04.6 LTS / Docker - Python 3.8.5, Tensor 2.5.0) 구축 /<br>
+                모델 Training(ResNet50, 101, 152 - V1, V2 & MobileNet V2) / System Integration 및 Engineering 테스트 진행하였습니다.<br><br>
+              </p>
+            </div>
+            <div class="project-details__tools-used">
+              <h3 class="project-details__content-title">Tools Used</h3>
+              <div class="skills">
+                <div class="skills__skill">C++</div> 
+                <div class="skills__skill">Docker</div>
+                <div class="skills__skill">Python</div>
+                <div class="skills__skill">ResNet / MobileNet</div>
+                <div class="skills__skill">BDD</div>
+                <div class="skills__skill">Scrum</div>
+                <div class="skills__skill">Agile</div>
+              </div>			  
+            </div>			
+          </div>  
+        </div>		
+      </div>		
+    </section>	
+    <footer class="main-footer">
+      <div class="main-container">       
+        <div class="main-footer__lower">
+          <a href="javascript:window.close()" class="btn btn--med btn--close dynamicBgClr">
+            Close
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
